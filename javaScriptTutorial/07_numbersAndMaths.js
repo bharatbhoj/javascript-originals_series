@@ -1,5 +1,5 @@
 const score=new Number(100);
-console.log(score)
+// console.log(score)
 
 const marks=new Number(50)
 // console.log(marks)
@@ -10,6 +10,11 @@ const count=new Number(1000000);
 // console.log(count.toLocaleString('en-IN'))
 // console.log(count.toLocaleString())
 
+const Cto= new Number(100.00);
+// console.log(Cto.toPrecision(2))
+// console.log(Cto.toPrecision(3))
+// console.log(Cto.toPrecision(4))
+// console.log(Cto.toPrecision(5))
 
 // ++++++++++++++++++++++++Math+++++++++++++++++++++++++++++++++++
 
@@ -23,13 +28,13 @@ const count=new Number(1000000);
 // console.log(Math.max(3,6,9,12,15))
 
 // console.log(Math.random())
-
-// console.log(Math.random()*20)
-
-// console.log(Math.floor(Math.random()*20)+1)
+// console.log(Math.random()*10)
+// console.log((Math.random()*10)+1)
+// console.log(Math.round(Math.random()*10)+1)
   
+console.log(Math.round(Math.random() *10)+1)
 
 const min=10;
 const max=20;
 
-console.log(Math.floor(Math.random()*(max-min+1))+min);
+// console.log(Math.floor(Math.random()*(max-min+1))+min);
