@@ -7,9 +7,17 @@ let Email_Id ="bharat@google.com";
 
 
 
-// studentId=14445556656565;  //constant cannot be change
+///// studentId=14445556656565;  //constant cannot be change but some time const can be change in array and object
+
+///// there for a example of Const change 
+// const names=["bharat"];
+// names[0]="rahul"
+// console.log(names)
+
+
 // console.log("studentId",studentId);
 city="banglore";
 // console.log(city);
 
-console.table([studentId,StudentName,Email_Id,city])
+// console.table([studentId,StudentName,Email_Id,city])
+

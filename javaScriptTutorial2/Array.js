@@ -5,7 +5,7 @@ const myArr=[10,20,30,40,50,60];
 // The push() method returns the new length.
 
 myArr.pop()
-console.log(myArr)
+// console.log(myArr)
 // console.log(myArr)
 // console.log(myArr.slice(0,3))
 // console.log(myArr)
@@ -20,8 +20,8 @@ months.splice(1, 0, 'Feb');
 // Inserts at index 1
 // console.log(months);
 
-months.splice(4, 0, 'May');
-// console.log(months)
+months.splice(4, 1,'May');
+console.log(months)
 
 months.splice(5, 1, 'don'); //this is for replace
 // Replaces 1 element at index 4
