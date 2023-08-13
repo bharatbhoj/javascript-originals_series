@@ -1,5 +1,9 @@
 const students=new String('bharat');
 
+const name ="ranjeet Singh Bhoj";
+const Reason="my everthing";
+
+console.log(`my father name is ${name} and he is ${Reason}`)
 
 // console.log(students.splice(students));
 
