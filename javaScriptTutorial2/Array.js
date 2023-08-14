@@ -5,7 +5,7 @@ const myArr=[10,20,30,40,50,60];
 // The push() method returns the new length.
 
 myArr.pop()
-// console.log(myArr)
+console.log(myArr)
 // console.log(myArr)
 // console.log(myArr.slice(0,3))
 // console.log(myArr)
