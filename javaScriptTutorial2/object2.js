@@ -1,7 +1,11 @@
 // singleton
 
 const tinderuser= new Object();
-console.log(tinderuser);
+tinderuser.name="bharat";
+tinderuser.bodycount=100;
+tinderuser.age=22;
+tinderuser.sex="male";
+
 
 const EmployeeDetail= {
     FullName:{
@@ -26,7 +30,12 @@ const EmployeeDetail= {
 
 
 
+    console.log(tinderuser);
+    console.log(Object.keys(tinderuser));
+    console.log(Object.values(tinderuser));
+   
 
+    console.log(tinderuser.hasOwnProperty('sex'));
 
 
 // name:"bharat Bhoj",
