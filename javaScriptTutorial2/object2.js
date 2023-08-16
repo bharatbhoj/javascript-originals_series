@@ -26,16 +26,28 @@ const EmployeeDetail= {
 
     const obj4= {...obj1,...obj2,...obj3}
 
-    console.log(obj4)
+    // console.log(obj4)
 
 
 
-    console.log(tinderuser);
-    console.log(Object.keys(tinderuser));
-    console.log(Object.values(tinderuser));
+    // console.log(tinderuser);
+    // console.log(Object.keys(tinderuser));
+    // console.log(Object.values(tinderuser));
    
 
-    console.log(tinderuser.hasOwnProperty('sex'));
+    // console.log(tinderuser.hasOwnProperty('sex'));
 
 
-// name:"bharat Bhoj",
+// destructures in object
+
+const course={
+    courseName:"english",
+    price:1000,
+    facultyName:"bharat"
+}
+
+// course.courseName
+
+const {courseName:instructor}=course
+// console.log(courseName)
+console.log(instructor);
